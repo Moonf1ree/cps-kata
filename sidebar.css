@@ -15,7 +15,7 @@
   src: local("./fonts/TT Lakes DemiBold"), local("TTLakes-DemiBold"),
     url("./fonts/TTLakes-DemiBold.eot?#iefix") format("embedded-opentype"),
     url("./fonts/TTLakes-DemiBold.woff") format("woff"),
-    url(../fonts/TTLakes-DemiBold.ttf") format("truetype");
+    url("./fonts/TTLakes-DemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -100,7 +100,7 @@ a:active {
   color: #7e7e82;
 }
 a:hover::before {
-  content: url(../images/highlight.svg);
+  content: url(./images/highlight.svg);
   position: absolute;
   left: -28px;
   bottom: -10px;
